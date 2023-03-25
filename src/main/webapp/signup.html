@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UV-Compatible" content="ET-edge">
+<title>signup</title>
+<script src="signup.js"></script>
+
+ <link href="signup.css" rel="stylesheet" type="text/css" />
+</head>
+<body >
+<div id="cent">
+<form action="SignupServlet" method="POST">
+
+       <h1>SignUp</h1>   
+   <div class="input-group" id="m">
+   <input type="text" id="name" required name="name"/>
+   <label for="">Name</label>
+   </div>
+   <div class="input-group">
+   <input type="text" id="age" required name="age"/>
+   <label for="">Age</label>
+   </div>
+   <div class="bo">
+     <p>Select Gender</p>
+     <input type="radio" id="gender" name="gender" value="Male"/>
+     <label for="gender" class="a1">Male</label>
+     <input type="radio" id="gender1" name="gender" value="Female"/>
+     <label for="gender1" class="a1">Female</label>
+     <input type="radio" id="gender2" name="gender" value="Other"/>
+     <label for="gender1" class="a1">Other</label>
+     </div>
+     <br><br>
+     <div class="daa">
+    <label for="dob" id="da">Date Of Birth : </label>
+    <input type="date" id="dob" name="dob"/>
+    </div>
+    <br>
+     <div class="bo">
+   <p>Select Role</p>
+   <input type="radio" id="role1" name="role" value="Teacher" onclick="CreateElement()" />
+    <label for="role1">Teacher</label>
+   <input type="radio" id="role2" name="role" value="Student" onclick="hide()"/>
+     <label for="role2">Student</label>
+     </div>
+     <br>
+    
+    <input type="submit" value="Next" id="sub"/>
+    <div class="sign-link">
+        <p>Don't have an account? <a href="login.html" class="signUp-link"> Log In</a></p>
+      </div>
+</form>
+</div>
+
+</html>

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box ;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+	width:100%;
+	height:100%;
+	display:Flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+	background:black;
+	
+}
+h1{
+	color:white;
+	text-align:center;
+	font-size:29px;
+	text-shadow:2px 2px 2px white;
+	 
+}
+#cent{
+	width:800px;
+	height:900px;
+	border:1px solid white;
+	background:black;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+}
+
+.input-group{
+  position:relative;
+  width:320px;
+  margin:30px 0;
+}
+.input-group label{
+	top:49%;
+	left:5%;
+  position:absolute;
+  transform:translateY(-50%);
+  padding: 0 5px;
+  pointer-events:none;
+  transition:.5s;
+  color:white;
+  font-size:20px;
+  
+}
+.input-group input{
+  width:117%;
+  height:60px;
+  font-size:16px;
+  color:white;
+  background: transparent;
+  border:1px solid white;
+  outline: none;
+  border-radius:5px;
+  margin-bottom:5px;
+  padding-left:20px;
+}
+.input-group input:focus~label,
+.input-group input:valid~label{
+  top:0%;
+  font-size:18px;
+  color:white;
+  background:black;
+}
+.bo label{
+	color:white;
+	font-size:20px;
+	margin-left:4%;
+	margin-right:4%;
+}
+body p{
+	color:white;
+	font-weight:bold;
+	font-size:21px;
+	margin-left:0%;
+	margin-top:10%;
+	margin-bottom:8%;
+}
+.daa label{
+	color:white;
+	font-size:20px;
+	margin-left:0%;
+	margin-right:10%;
+	font-weight:bold;
+}
+.daa input{
+	width:131px;
+	height:32px;
+	font-size:16px;
+}
+#sub{
+	 width:117%;
+     height:60px;
+     color:white;
+     background:green;
+     font-size:21px;
+     border-radius:5px;
+     margin-top:5%;
+}
+.sign-link{
+  text-align:center;
+  margin:25px 0;
+  font-size:14px;
+}
+.sign-link p{
+  color:white;
+  margin-left:0%;
+  width:112%;
+  font-size:16px;
+}
+
+.sign-link p a{
+  color:red;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.sign-link p a:hover{
+  text-decoration:underline;
+}
+
+#m{
+	margin-top:18%;
+}
+
+a{
+	text-decoration:none;
+}
+#Message{
+	color:white;
+	margin-top:2%;
+	font-size:16px;
+	text-align:center;
+}
